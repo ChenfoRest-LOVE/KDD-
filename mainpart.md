@@ -163,7 +163,7 @@ export CRAG_MOCK_API_URL="http://localhost:8000"
 def initialize_batch():
     return {"interaction_id": [], "query": [], "search_results": [], "query_time": [], "answer": []}
 ```
-
+**数据清洗相关**
 **必需的JSONL格式**：
 ```json
 {
